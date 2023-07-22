@@ -1,0 +1,63 @@
+CREATE TABLE friends (
+  id INTEGER,
+  name TEXT,
+  birthday DATE
+  );
+
+INSERT INTO friends (id, name, birthday)
+VALUES (1, 'Ororo Munroe','1940-05-30');
+
+INSERT INTO friends (id, name, birthday)
+VALUES (2, 'Crizia Samiano', '2001-05-20');
+
+INSERT INTO friends (id, name, birthday)
+VALUES (3,'Ethan Vidas', '2002-06-27');
+
+INSERT INTO friends (id, name, birthday)
+VALUES (4, 'Collin Capil', '2004-09-06');
+ 
+UPDATE friends
+SET name = 'Storm'
+WHERE id = 1;
+
+ALTER TABLE friends
+ADD COLUMN email TEXT;
+
+UPDATE friends
+SET email = 'storm@codecademy.com'
+WHERE id = 1;
+
+UPDATE friends 
+SET email ='criziasamiano@gmail.com'
+WHERE id = 2;
+
+UPDATE friends
+SET email = 'evidas@gmail.com'
+WHERE id = 3;
+
+UPDATE friends
+SET email = 'collincapil@gmail.com'
+WHERE id = 4;
+
+DELETE FROM friends
+WHERE id = 1;
+
+ALTER TABLE friends
+ADD COLUMN instahandle TEXT;
+
+UPDATE friends
+SET instahandle = '@ishaaboo'
+WHERE id = 2;
+
+UPDATE friends 
+SET instahandle ='@ethanvidas'
+WHERE id = 3;
+
+UPDATE friends
+SET instahandle = '@collincapil'
+WHERE id = 4;
+
+
+SELECT *
+FROM friends; 
+

@@ -2,8 +2,10 @@ print("I have information for the following planets:\n")
 
 print("   1. Venus   2. Mars    3. Jupiter")
 print("   4. Saturn  5. Uranus  6. Neptune\n")
- 
+
+# Enter your weight here:
 weight = 144
+# Enter the corresponding # to a planet here:
 planet = 4
 
 # Write an if statement below:
@@ -20,4 +22,5 @@ elif planet == 5:
 elif planet == 6:
     weight = weight * 1.19
 
+# Change the # in the str to your weight
 print("Earth Weight = 144: ", weight)

@@ -1,0 +1,44 @@
+.banner {
+  color: rgb(233, 233, 98);
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg?_gl=1*1ms2b7m*_ga*MTQ0NzgwMTA5NC4xNjg5MDI0MzE3*_ga_3LRZM6TM9L*MTY5MjkwMjQ2Ni42OS4xLjE2OTI5MDk1NDYuNTguMC4w);
+  padding-top: -10px;
+}
+
+.brushes {
+  color: white;
+  background-color: rgb(137, 236, 137);
+  font-size: 45px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.frames {
+  color: white;
+  background-color: rgb(238, 69, 69);
+  font-size: 45px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.paint {
+  color: white;
+  background-color: rgb(89, 151, 223);
+  font-size: 45px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.price {
+  color: blue;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 30px;
+}
+p {
+  font-size: 25px;
+}

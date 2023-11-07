@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Design System</title>
+    <!--Using TailwindCSS-->
+    <link href="/dist/output.css" rel="Stylesheet" />
+  </head>
+  <body>
+    <header class="mx-auto my-auto pb-4 text-center">
+      <h1 class="text-lg font-bold">Website Design System</h1>
+    </header>
+    
+    <!--Font Styles-->
+    <div class="mx-4 rounded border-2 border-solid border-gray-600">
+      <h1 class="mr-auto px-4 text-center font-bold underline md:text-start">
+        Font Styles:
+      </h1>
+      <div
+        id="font-styles"
+        class="grid w-auto items-center gap-12 px-2 py-8 text-center md:grid-cols-3"
+      >
+        <div id="font-sans" class="rounded-md border-2 md:m-0 md:p-0">
+          <h2 class="font-sans text-blue-600">Font-Sans:</h2>
+          <h3 class="font-sans">
+            The quick brown fox jumps over the lazy dog.
+          </h3>
+          <h3 class="font-sans font-bold">
+            The quick brown fox jumps over the lazy dog.
+          </h3>
+        </div>
+        <div id="font-serif" class="rounded-md border-2 md:m-0 md:p-0">
+          <h2 class="font-serif text-blue-600">Font-Serif:</h2>
+          <h3 class="font-serif">
+            The quick brown fox jumps over the lazy dog.
+          </h3>
+          <h3 class="font-serif font-bold">
+            The quick brown fox jumps over the lazy dog.
+          </h3>
+        </div>
+        <div id="font-mono" class="rounded-md border-2 md:m-0 md:p-0">
+          <h2 class="font-mono text-blue-600">Font-Mono:</h2>
+          <h3 class="font-mono">
+            The quick brown fox jumps over the lazy dog.
+          </h3>
+          <h3 class="font-mono font-bold">
+            The quick brown fox jumps over the lazy dog.
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <!--Colors-->
+    <div class="mx-4 my-4 h-auto rounded border-2 border-solid border-gray-600">
+      <h1 class="mr-auto px-4 text-center font-bold underline md:text-start">
+        Colors:
+      </h1>
+      <div
+        id="Colors"
+        class="mx-auto grid w-auto content-evenly items-center justify-evenly gap-12 px-2 py-8 text-center md:grid-cols-3"
+      >
+        <div
+          id="Blue"
+          class="flex h-32 w-auto items-center justify-center rounded-md border-2 border-black bg-blue-600"
+        >
+          <h2 class="font-sans text-white">Blue(rgb 37 99 235)</h2>
+        </div>
+
+        <div
+          id="White"
+          class="flex h-32 w-auto items-center justify-center rounded-md border-2 border-black bg-white"
+        >
+          <h2 class="font-sans text-black">White(rgb 255 255 255)</h2>
+        </div>
+        <div
+          id="Black"
+          class="flex h-32 w-auto items-center justify-center rounded-md border-2 bg-zinc-950"
+        >
+          <h2 class="font-sans text-white">Zinc(rgb 9 9 11)</h2>
+        </div>
+      </div>
+    </div>
+
+    <!--Button Styles-->
+    <div class="mx-4 my-4 h-auto rounded border-2 border-solid border-gray-600">
+      <h1 class="mr-auto px-4 text-center font-bold underline md:text-start">
+        Buttons:
+      </h1>
+      <div
+        id="Buttons"
+        class="mx-auto grid w-auto content-evenly items-center justify-evenly gap-12 px-2 py-8 text-center md:grid-cols-3"
+      >
+        <button
+          class="h-16 w-auto rounded-xl border-2 border-zinc-950 bg-blue-600 font-extrabold text-white hover:border-gray-500 hover:bg-blue-400 hover:text-gray-900 md:h-20"
+        >
+          Click Me!
+        </button>
+
+        <button
+          class="h-16 w-auto transform rounded-full border-2 border-zinc-950 bg-white font-extrabold shadow-md transition duration-300 hover:-translate-y-1 hover:border-opacity-0 hover:bg-slate-100 hover:text-zinc-400 hover:shadow-lg md:h-20"
+        >
+          Click Me!
+        </button>
+
+        <button
+          class="transform rounded-lg bg-gray-100 p-4 font-extrabold text-blue-600 transition-transform duration-300 hover:translate-y-1 hover:shadow-2xl"
+        >
+          Click Me!
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
